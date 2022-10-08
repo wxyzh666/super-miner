@@ -220,7 +220,7 @@ document.onkeydown = function(e){
 		
 	switch(e.keyCode){
 		
-		case 38:
+		case 40:
 			if(hook_state != 0) break;
 			console.log("ok");
 			catch_material = 0;
